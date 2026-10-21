@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px){
+    :root{
+    --preto:#000000;
+    --roxo:#7700DF;
+    --roxo-logo:#3c006d;
+    --lilas: #c77dff;
+    --magenta: #ff4fd8;
+    --branco: #ffff;
+    --cinza:#b8b8b8;
+    --surface: #111014;
+    --surface-2: #18151ca7;
+    --borda: #2b0a45;
+}
+*{ 
+  margin: 0;
+}
+body{
+background-color: var(--preto);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+ min-height: 100vh;
+
+    }
+   header{
+	width:100vw;
+   height: 15vh;
+   background:linear-gradient(60deg, var(--roxo-header) 20%, var(--roxo));
+   border-bottom:var(--surface) 1px solid;
+   display: flex;
+   
+.logo {
+font-size: 3.5rem;
+font-weight: 800;
+letter-spacing: -1px;
+font-family:helvetica, sans-serif;
+color: var(--branco);
+margin-top: 25px;
+filter: drop-shadow(5px 35px 25px var(--surface-2));
+}
+
+.logo span {
+background: linear-gradient(60deg,var(--roxo)12%,var(--magenta), var(--lilas));
+  background-clip: text;
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent;
+   -text-fill-color: transparent;
+    display: inline-block;  
+
+}
+}
+.divbtns{
+   .btndivs{
+    display:none;
+   }
+   border-bottom: none;
+}
+
+}
